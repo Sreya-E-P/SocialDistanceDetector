@@ -22,19 +22,8 @@ To check whether if people are following social distancing precautions within a 
 
 <br>
 
-## Installation of the Project:package:
+## Installation of the Project
 
 1. Clone the repo
 2. Install dependencies
-
-```bash
-   $ pip install -r requirements.txt
-```
-
 3. Run the main social distancing detector file. (set display to 1 if you want to see output video as processing occurs)
-```bash
-   $ python social_distancing_detector.py --input pedestrians.mp4 --output output.avi --display 1
-```
-[Caution: The output video stream will not be accurate if you display as processing occurs]
-## Demo Video :movie_camera:
-![raw-vid](res/demo0.gif "Unprocessed video") ![processed-vid](res/demo1.gif "Processed video")
