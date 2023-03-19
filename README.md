@@ -5,7 +5,7 @@
 To check whether if people are following social distancing precautions within a crowd using computer vision technologies
 
 
-## Functioning :gem:
+## Functioning 
 * Object detection using the YOLO COCO model to detect only people in the video stream.
 * Computes the distances between all detected people in the bounding boxes.
 * Based on the computed distances, we determine whether social distancing rule or precaution is being violated or not.
@@ -25,12 +25,6 @@ To check whether if people are following social distancing precautions within a 
 ## Installation of the Project:package:
 
 1. Clone the repo
-
-```bash
-   $ git clone https://github.com/Noel6161131110/Social-Distancing-Detector.git
-   $ cd Social-Distancing-Detector
-```
-
 2. Install dependencies
 
 ```bash
